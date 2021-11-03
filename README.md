@@ -36,9 +36,9 @@
   | U0T |	RX |
   | GPIO 0	| GND |
 
-  **IMPORTANTE** 
-    - Muchos FTDI tienen un puente que permite seleccionar 3.3V o 5V. Asegúrese de que el puente esté en el lugar correcto para seleccionar 5V.
-    - Una vez cargado el programa, presionar el botón de RST del ESP32CAM
-    - GPIO 0 debe estar conectado a GND para que pueda cargar el código. Una vez cargado el programa, desconectar el puente entre estas terminales.
+**IMPORTANTE** 
+* Muchos FTDI tienen un puente que permite seleccionar 3.3V o 5V. Asegúrese de que el puente esté en el lugar correcto para seleccionar 5V.
+* Una vez cargado el programa, presionar el botón de RST del ESP32CAM
+* GPIO 0 debe estar conectado a GND para que pueda cargar el código. Una vez cargado el programa, desconectar el puente entre estas terminales.
 
 Los pasos detallados se encuentran en [este blog](https://randomnerdtutorials.com/program-upload-code-esp32-cam/).
