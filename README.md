@@ -4,15 +4,8 @@
 
   Para las implementaciones de los programas presentados aquí, se recomiendan las siguientes configuraciones: 
 
-## MATERIALES UTILIZADOS
-  * Ubuntu 20.04
-  * ESP32CAM(AI-Thinker)
-  * Sensores
-  * Programador FTDI
-  * Jumpers
-  * Protoboard 
-
 ## IDE ARDUINO
+
   Los programas se cargan a través de Arduino IDE versión 1.8.16 y se requiere instalar algunas librerías si se quiere trabajar con algún sensor específico:
   | SENSOR | Librería |
   | --- | --- |
