@@ -26,7 +26,7 @@
   Más información sobre los pines [en este blog](https://randomnerdtutorials.com/esp32-cam-ai-thinker-pinout/) o en este [repo](https://github.com/raphaelbs/esp32-cam-ai-thinker/blob/master/docs/esp32cam-pin-notes.md)
 
 ## CABLEADO
-  Para cargar el código desde la IDE de Arduino al ESP32CAM (AI-Thinker) debemos conectar el microcontrolador a la computadora mediante un módulo FTDI de la siguiente forma:
+  Para cargar el código al ESP32CAM (AI-Thinker) desde Arduino IDE, debemos conectar el módulo ESP32 a la computadora mediante un módulo FTDI de la siguiente forma:
 
   | ESP32CAM | FTDI |
   | ------------- | ------------- |
