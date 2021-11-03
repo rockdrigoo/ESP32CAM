@@ -1,7 +1,10 @@
 # ESP32CAM
-Contiene los programas para el Diplomado de Internet de las Cosas de Samsung.
+Este repositorio contiene los programas estudiados en el "Diplomado de Internet de las Cosas" de Samsung.
+En él, se utiliza el módulo ESP32CAM que es ampliamente utilizado en aplicaciones IoT, ya que cuenta con Wi-Fi y Bluetooth.
 
-## PINES UTILIZADOS
+Para las implementaciones de los programas presentados en este repositorio, se utilizan las siguientes propiedades del módulo: 
+
+## PINES
  * GPIO 4 - Flashlight: funciona con lógica directa. Es decir, para apagarlo utilizamos LOW y para encenderlo HIGH.
  * GPIO 33 – Built-in Red LED: funciona con lógica indirecta. Para apagarlo utilizamos HIGH y para encenderlo LOW.
 
