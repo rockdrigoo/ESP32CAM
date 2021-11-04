@@ -1,0 +1,71 @@
+[
+    {
+        "id": "f5859ca9fced1a49",
+        "type": "tab",
+        "label": "Flow 5",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "c6282dd0a84e7f6e",
+        "type": "mqtt in",
+        "z": "f5859ca9fced1a49",
+        "name": "",
+        "topic": "codigoiot/distancia/rodrigoarciniega",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "edd3004a.11da88",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 390,
+        "y": 420,
+        "wires": [
+            [
+                "3616a5d8920ab339"
+            ]
+        ]
+    },
+    {
+        "id": "3616a5d8920ab339",
+        "type": "debug",
+        "z": "f5859ca9fced1a49",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 710,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "edd3004a.11da88",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "3.67.205.237",
+        "port": "1883",
+        "clientid": "rockdrigoarcm123",
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    }
+]
