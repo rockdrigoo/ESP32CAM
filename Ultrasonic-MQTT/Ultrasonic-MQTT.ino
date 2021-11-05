@@ -28,8 +28,8 @@ const char* ssid = "Fam. ARCINIEGA M";  // Aquí debes poner el nombre de tu red
 const char* password = "darcim07";  // Aquí debes poner la contraseña de tu red
 
 //Datos del broker MQTT
-const char* mqtt_server = "3.67.205.237"; // Si estas en una red local, coloca la IP asignada, en caso contrario, coloca la IP publica
-IPAddress server(3,67,205,237);
+const char* mqtt_server = "3.122.36.163"; // Si estas en una red local, coloca la IP asignada, en caso contrario, coloca la IP publica
+IPAddress server(3,122,36,163);
 
 // Variables y Constantes
 int flashLedPin = 4;  // Para indicar el estatus de conexión
